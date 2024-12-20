@@ -12,11 +12,16 @@
 <head>
 <meta charset="UTF-8">
 <title>メンタルチェック</title>
+<link rel="stylesheet" href="css/userMain.css">
 </head>
 <body>
 <h1>メンタルチェック</h1>
-
 <h2>ようこそ、${sessionScope.user.name}さん！</h2><br>
+<div class="logout">
+<a href="logoutServlet">
+	<button type="button">ログアウト</button>
+</a>
+</div>
 <h2>以下の質問に答えて、メンタルチェックを行いましょう</h2>
 
 <form action="mentalCheckServlet" method="POST">
@@ -29,11 +34,27 @@
             String option4Text = rs.getString("option_4_text");
             int questionId = rs.getInt("question_id");
     %>
-    <p><%= questionText %></p>
-    <input type="radio" name="question_<%= questionId %>" value="10"><%= option1Text %><br>
-    <input type="radio" name="question_<%= questionId %>" value="7"> <%= option2Text %><br>
-    <input type="radio" name="question_<%= questionId %>" value="5"> <%= option3Text %><br>
-    <input type="radio" name="question_<%= questionId %>" value="3"> <%= option4Text %><br>
+    <div class="question-container">
+    	<p class="question-text"><%= questionText %></p>
+    <div class="option-container">
+    		<div>
+    			<input type="radio" name="question_<%= questionId %>" value="10" id="question_<%= questionId %>_1">
+    			<label for="question_<%= questionId %>_1"><%= option1Text %></label>
+    		</div>
+    		<div>
+                <input type="radio" name="question_<%= questionId %>" value="7" id="question_<%= questionId %>_2">
+                <label for="question_<%= questionId %>_2"><%= option2Text %></label>
+            </div>
+            <div>
+                <input type="radio" name="question_<%= questionId %>" value="5" id="question_<%= questionId %>_3">
+                <label for="question_<%= questionId %>_3"><%= option3Text %></label>
+            </div>
+            <div>
+                <input type="radio" name="question_<%= questionId %>" value="3" id="question_<%= questionId %>_4">
+                <label for="question_<%= questionId %>_4"><%= option4Text %></label>
+            </div>
+          </div>
+        </div>
     <%
         }
     %>

@@ -55,6 +55,8 @@ var resultChart = new Chart(ctx, {
     }
 });
 </script>
-
+<a href="logoutServlet">
+	<button type="button">ログアウト</button>
+</a>
 </body>
 </html>

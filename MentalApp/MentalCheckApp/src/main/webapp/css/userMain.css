@@ -1,0 +1,39 @@
+@charset "UTF-8";
+h1{
+	color: #5a9bd4;
+	text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+/*ログアウトボタン*/
+.logout{
+	display: flex;
+	align-items: flex-start ;
+	justify-content: end;
+}
+
+.question-container{
+	border:1px solid #ccc;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	background-color: #f9f9f9;
+}
+
+.question-text{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.option-container{
+	display:flex;
+	justify-content: space-around;
+	gap: 10px;
+}
+
+.option-container input[type="radio"]{
+	font-size: 14px;
+	display: inline-block;
+	cursor: pointer;
+}
+

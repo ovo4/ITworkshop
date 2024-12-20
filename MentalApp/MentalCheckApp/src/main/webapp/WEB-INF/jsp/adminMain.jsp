@@ -8,5 +8,7 @@
 </head>
 <body>
 <h1>管理者用</h1>
+<a href="logoutServlet">
+	<button type="button">ログアウト</button>
 </body>
 </html>
