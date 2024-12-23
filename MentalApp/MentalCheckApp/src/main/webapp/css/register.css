@@ -50,20 +50,9 @@ button:hover {
     background-color: #4b8bb0;
 }
 
-a button {
-    background-color: #f1c40f;
-    color: white;
-    border: none;
-    
-}
-
-a button:hover {
-    background-color: #e0b90f;
-}
-
 p {
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     color: #666;
 }
 
@@ -74,4 +63,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+p.arrow {
+    font-size: 18px;
+    color: #5a9bd4;
 }

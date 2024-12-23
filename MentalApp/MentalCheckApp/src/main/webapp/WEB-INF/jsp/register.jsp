@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>新規登録</title>
+<link rel="stylesheet" href="css/register.css">
 </head>
 <body>
 <h1>新規アカウント作成</h1>
