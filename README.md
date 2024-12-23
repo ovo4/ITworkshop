@@ -28,17 +28,17 @@
 - `index.jsp` からユーザー名とパスワードを入力してログインします。  
   初期ユーザー例:  
   - 名前: `user1`  
-  - パスワード: `0001`
-  ![ログイン画面](ITworkshop/index.png)
+  - パスワード: `0001`<bar>
+  ![ログイン画面](index.png)
 
 ### 2. メンタルチェック
-- ログイン後、`userMain.jsp` からメンタルチェックを開始します。
-  ![メイン画面](ITworkshop/ userMain1.png)(ITworkshop/ userMain2.png)
+- ログイン後、`userMain.jsp` からメンタルチェックを開始します。<bar>
+  ![メイン画面](userMain1.png)
 
 ### 3. 結果の表示
 - メンタルチェック結果が `mentalCheckResult.jsp` に表示されます。  
-  過去の結果もグラフで確認できます。
-  ![リザルト画面](ITworkshop/result.png)
+  過去の結果もグラフで確認できます。<bar>
+  ![リザルト画面](result.png)
 
 ## 管理者用機能
 
