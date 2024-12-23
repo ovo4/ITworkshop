@@ -18,7 +18,7 @@ public class UserDao {
             Class.forName("org.h2.Driver");
             
             // 接続設定
-            connection = DriverManager.getConnection("jdbc:h2:~/desktop/test/mentalcheckDB", "sa", "");
+            connection = DriverManager.getConnection("jdbc:h2:~/desktop/workspeace/ITworkshop/test/mentalcheckDB", "sa", "");
             if (connection == null) {
                 System.out.println("Failed to make connection!");
             } else {

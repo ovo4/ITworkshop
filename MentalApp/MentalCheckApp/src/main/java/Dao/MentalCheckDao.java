@@ -12,7 +12,7 @@ import java.util.List;
 import model.MentalCheckResult;
 
 public class MentalCheckDao {
-    private static final String DB_URL = "jdbc:h2:~/desktop/test/mentalcheckDB";
+    private static final String DB_URL = "jdbc:h2:~/desktop/workspeace/ITworkshop/test/mentalcheckDB";
     private static final String DB_USER = "sa";
     private static final String DB_PASSWORD = "";
     

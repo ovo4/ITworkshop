@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>メンタルチェック結果</title>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -13,7 +14,7 @@
 <h3>結果:</h3>
 <p>${requestScope.resultMessage}</p>
 
-<canvas id="resultchart" width="200" height="100"></canvas>
+<canvas id="resultchart" width="50" height="25"></canvas>
 
 <script>
 
